@@ -8,7 +8,8 @@ from core.Logger import *
 
 # print header text
 printHeader()
-
+from keep_alive import keep_alive
+keep_alive()
 # import config.json
 try:
     info("Try import config")
